@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .main{
+            width: 100vw;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items:center ;
+        }
+       .squre{
+        width: 100px;
+        height: 40px;
+        border:5px solid #2c2c2c;
+        position: relative;
+        border-radius: 5px;
+       }
+       .squre::before{
+        content: '';
+        width: 5px;
+        height: 20px;
+        background: #2c2c2c;
+        position: absolute;
+        border-radius:5px;
+        right: -11px;
+        top: 10px;
+       }
+       .squre::after{
+        content: '0%';
+        /* width:100px;
+        height: 40px; */
+        background: rgb(130, 233, 130);
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        animation: charging 10s linear infinite;
+        font-size: 40px;
+
+       }
+       @keyframes charging{
+        0%{
+            width: 0;
+            content: '0%';
+        }
+        10%{
+            width: 10%;
+            content: '10%';
+        }
+        20%{
+            width: 20%;
+            content: '20%';
+        }
+        30%{
+            width: 30%;
+            content: '30%';
+        }
+        40%{
+            width: 40%;
+            content: '40%';
+        }
+        50%{
+            width: 50%;
+            content: '50%';
+        }
+        60%{
+            width: 60%;
+            content: '60%';
+        }
+        70%{
+            width: 70%;
+            content: '70%';
+        }
+        80%{
+            width: 80%;
+            content: '80%';
+        }
+        90%{
+            width: 90%;
+            content: '90%';
+        }
+        100%{
+            width: 100%;
+            content: '100%';
+        }
+       }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="squre">
+          
+        </div>
+    </div>
+</body>
+</html>

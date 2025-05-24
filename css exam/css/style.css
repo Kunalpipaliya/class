@@ -1,0 +1,247 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.w-50 {
+    width: calc(50% - 60px);
+    padding: 70px 30px;
+}
+.w-100 {
+    width: 100%;
+}
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+/* header start */
+header {
+    background-color:rgba(25, 103, 98) ;
+    padding: 15px 0px;
+    align-items: center;
+    justify-content: space-around;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+.logo {
+    color: #fff;
+}
+ul li a {
+    margin: 10px 20px;
+    color: #afcac8;
+    position: relative;
+}
+
+ul li a:hover {
+    color: #fff;
+}
+ul li a::after{
+    content: '';
+    position: absolute;
+    height: 2px;
+    width: 0;
+    left: 0;
+    right: 0;
+    bottom: -7px;
+    background: #018880;
+    transition: 0.3s;
+}
+ul li a:hover::after{
+    width: 100%;
+}
+.btn {
+    border: none;
+    padding: 7px 20px;
+    border-radius: 5px;
+    background: #018880;
+    color: #fff;
+}
+.btn:hover{
+    background-color: #afcac8;
+}
+/* .functionality{
+
+} */
+/* header end */
+
+
+
+
+/* hero start */
+.hero {
+    background-color: rgb(25, 103, 98);
+}
+.heading {
+    font-size: 56px;
+    font-weight: 700;
+    color: #fff;
+}
+.contain {
+    font-size: 17.6px;
+    color: #fff;
+    padding: 20px 0;
+    font-weight: 400;
+}
+
+.btn2 button {
+    border: 2px solid #fff;
+    background: none;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    font-weight: 600;
+    margin-right: 10px;
+}
+.btn2 button:hover{
+    background: #fff;
+    font-weight: 600;
+    color:#018880;
+}
+.review {
+    padding: 20px 0;
+}
+strong {
+    font-size: 30px;
+}
+.review p {
+    padding-right: 20px;
+    color: #fff;
+}
+img {
+    border-radius: 20px;
+}
+.img {
+    position: relative;
+}
+.about {
+    background: #fff;
+}
+.about img{
+    position: relative;
+    margin-top: 100px;
+}
+.heading2 {
+    color: #003a36;
+    font-size: 40px;
+    font-weight: 700;
+}
+.c2{
+    color: #444d4d;
+    font-weight: 500;
+    font-size: 19.2px;
+}
+.c3{
+    color: #000;
+}
+.fa-solid
+{
+    font-size: 50px;
+    font-weight: 100;
+    color: #018880;
+}
+h4{
+    font-size: 19.2px;
+    color: #003a36;
+}
+.btn3 button{
+    border: none;
+    background-color: #018880;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: 500;
+    border-radius: 5px;
+    transition: 0.5s;
+    margin-left: 20px;
+}
+.btn3 button:hover{
+    transform: translateY(-10px);
+    opacity: 0.9;
+}
+.since{
+    background: #018880;
+    color: #fff;
+    position: absolute;
+    right: -20px;
+    bottom: -20px;
+    padding: 20px 10px;
+    border-radius: 7px;
+}
+.since p strong{
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+}
+.since p{
+    text-align: center;
+
+}
+.process .subtitle{
+    color: #018880;
+    display: inline-block;
+    padding: 8px 20px;
+    font-size: 14px;text-transform: uppercase;
+    font-weight: 500;
+    text-align: center;
+    background-color: color-mix(in srgb, #018880, transparent 90%);
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.title-box
+{
+    width: 100%;
+    text-align: center;
+    margin-top: 10px;
+}
+.process span{
+    font-size: 32px;
+    color: #003a36;
+    font-weight: 500;
+}
+.process .title{
+    font-size: 32px;
+    color: #018880;
+    font-weight: 500;
+}
+.step h2
+{
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #003a36;
+}
+
+/* hero end */
+/* footer start  */
+.w-25{
+    width:calc(25% - 80px);
+    margin: 40px;
+}
+.w-25 i{
+    color: #003a36;
+    font-size: 20px;
+}
+footer{
+    gap: 20px;
+    justify-content: center;
+}
+.fa-brands{
+    border: 1px solid #888;
+    color: #888;
+    padding: 10px;
+    font-size: 16px;
+    box-shadow: 0 0 5px #888;
+    border-radius: 50%;
+    text-align: center;
+    margin-right: 5px;
+}
+.fa-brands:hover{
+    color:#018880 ;
+    box-shadow: 0 0 2px #018880;
+    border: 1px solid #018880;
+}
+/* footer end */

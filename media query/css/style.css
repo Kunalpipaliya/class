@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css2?family=Monsieur+La+Doulaise&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap");
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Mea Culpa", cursive;
+}
+.w-100 {
+    width: 100%;
+}
+.w-1140 {
+    width: 1140px;
+    margin: auto;
+    background-color: darkcyan;
+}
+.w-33 {
+    width: calc(33.33% - 30px);
+    height: 200px;
+    background: aqua;
+    margin: 15px;
+    padding: 5px;
+    overflow-y: auto;
+    border-radius: 10px;
+    
+}
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+@media (max-width: 1200px) {
+    .w-1140 {
+        width: 1140px;
+        margin: auto;
+        background-color: darkcyan;
+    }
+    .w-33 {
+        width: calc(33.33% - 30px);
+        height: 200px;
+        background: aqua;
+        margin: 15px;
+    }
+}
+@media (max-width: 992px) {
+    .w-1140 {
+        width: 960px;
+        margin: auto;
+        background-color: darkcyan;
+    }
+    .w-33 {
+        width: calc(33.33% - 30px);
+        height: 190px;
+        background: aqua;
+        margin: 15px;
+    }
+}
+@media (max-width: 768px) {
+    .w-1140 {
+        width: 720px;
+        margin: auto;
+        background-color: darkcyan;
+    }
+    .w-33 {
+        width: calc(33.33% - 30px);
+        height: 170px;
+        background: aqua;
+        margin: 15px;
+    }
+}
+@media (max-width: 576px) {
+    .w-1140 {
+        width: 540px;
+        margin: auto;
+        background-color: darkcyan;
+    }
+    .w-33 {
+        width: calc(50% - 30px);
+        height: 150px;
+        background: aqua;
+        margin: 15px;
+    }
+}
+@media (max-width: 280px) {
+    .w-33 {
+        width: calc(100% - 30px);
+        height: 100px;
+        background: aqua;
+        margin: 15px;
+    }
+}

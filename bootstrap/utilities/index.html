@@ -1,0 +1,698 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/bootstrap-5.3.6-dist/css/bootstrap.min.css">
+    <style>
+        body {
+            margin: 20px;
+        }
+
+        ul li a {
+            text-decoration: none;
+        }
+
+        h2 {
+            text-align: center;
+            padding: 5px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- background start -->
+    <h1 class="bg-primary text-center text-light rounded-pill p-2">Utilities</h1>
+    <br>
+    <h2 class="bg-warning">background</h2>
+    <p class="bg-warning p-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti pariatur eaque aut
+        placeat cupiditate corporis quam consequatur similique nisi, animi ad numquam ducimus, mollitia rerum incidunt
+        vel, temporibus amet dolorum!</p>
+    <br>
+    <hr>
+
+    <!-- background end -->
+
+    <!-- border start -->
+    <br>
+    <h2 class="bg-warning">border</h2>
+    <br>
+    <span class="border border-danger p-2">hello</span>
+    <span class="border-top border-danger p-2">hello</span>
+    <span class="border-bottom border-danger p-2">hello</span>
+    <span class="border-start border-danger p-2">hello</span>
+    <span class="border-end border-danger p-2">hello</span>
+
+    <br>
+    <br>
+    <span class="bg-warning mt-5 p-2">border width</span>
+    <br>
+    <br>
+    <span class="border border-1 border-danger p-2">hello</span><br><br>
+    <span class="border border-2 border-danger p-2">hello</span><br><br>
+    <span class="border border-3 border-danger p-2">hello</span><br><br>
+    <span class="border border-4 border-danger p-2">hello</span><br><br>
+    <span class="border border-5 border-danger p-2">hello</span><br><br>
+    <span class="bg-warning mt-5 p-2">border radius</span>
+    <br>
+    <br>
+    <span class="border rounded border-1 border-danger p-2">hello</span><br><br>
+    <span class="border rounded-top border-1 border-danger p-2">hello</span><br><br>
+    <span class="border rounded-end border-1 border-danger p-2">hello</span><br><br>
+    <span class="border rounded-start border-1 border-danger p-2">hello</span><br><br>
+    <span class="border rounded-bottom border-1 border-danger p-2">hello</span><br><br>
+    <span class="border rounded-circle border-1 border-danger p-2">hello</span><br><br>
+    <span class="border rounded-pill border-1 border-danger p-2">hello</span><br><br>
+    <span class="bg-warning mt-5 p-2">border radius sizes</span>
+    <br>
+    <br>
+    <span class="border rounded-0 border-1 border-danger p-2">hello</span><br><br>
+    <span class="border rounded-1 border-1 border-danger p-2">hello</span><br><br>
+    <span class="border rounded-2 border-1 border-danger p-2">hello</span><br><br>
+    <span class="border rounded-3 border-1 border-danger p-2">hello</span><br><br>
+    <br>
+    <!-- border end -->
+    <hr>
+    <!-- colors start -->
+    <br>
+    <h2 class="bg-warning">color</h2>
+    <p class="text-primary">primary</p>
+    <p class="text-secondary">secondary</p>
+    <p class="text-success">success</p>
+    <p class="text-danger">danger</p>
+    <p class="text-warning">warning</p>
+    <p class="text-info">info</p>
+    <p class="text-light bg-dark">light</p>
+    <p class="text-dark">dark</p>
+    <p class="text-body">body</p>
+    <p class="text-muted">muted</p>
+    <p class="text-white bg-dark">white</p>
+    <p class="text-black-50">black-50</p>
+    <p class="text-white-50 bg-dark">white-50</p>
+    <br>
+    <!-- colors end -->
+    <hr>
+
+    <!-- display start -->
+    <br>
+    <h2 class="bg-warning">display</h2>
+    <h4>-display none</h4>
+    <span class="d-none bg-dark">hidden text</span>
+    <h4>- display flex </h4>
+    <ul type="none" class="d-flex">
+        <li><a class="p-2" href="">home</a></li>
+        <li><a class="p-2" href="">about</a></li>
+        <li><a class="p-2" href="">contact</a></li>
+    </ul>
+    <h4>-display inline</h4>
+    <p class="d-inline bg-danger p-1">java</p>
+    <p class="d-inline bg-warning p-1">script</p>
+    <br>
+    <br>
+    <h4>-display block</h4>
+    <span class="d-block bg-primary p-2 text-light">abc</span>
+    <span class="d-block bg-secondary p-2 text-light">abc</span>
+    <br>
+    <!-- display end -->
+    <hr>
+    <!-- flex box start -->
+    <br>
+    <h2 class="bg-warning">flex</h2>
+    <h4>-direction</h4>
+    <h6>-flex-row</h6>
+    <div class="d-flex flex-row mb-3 border border-dark rounded">
+        <div class="p-2 rounded border border-white bg-primary text-light">item-1</div>
+        <div class="p-2 rounded border border-white bg-primary text-light">item-2</div>
+        <div class="p-2 rounded border border-white bg-primary text-light">item-3</div>
+    </div>
+    <h6>-flex-row-reverse</h6>
+    <div class="d-flex flex-row-reverse mb-3 border border-dark rounded">
+        <div class="p-2 rounded border border-white bg-primary text-light">item-1</div>
+        <div class="p-2 rounded border border-white bg-primary text-light">item-2</div>
+        <div class="p-2 rounded border border-white bg-primary text-light">item-3</div>
+    </div>
+    <h6>-flex-column</h6>
+    <div class="d-flex flex-column mb-3 border border-dark rounded">
+        <div class="p-2 rounded border border-white bg-primary text-light">item-1</div>
+        <div class="p-2 rounded border border-white bg-primary text-light">item-2</div>
+        <div class="p-2 rounded border border-white bg-primary text-light">item-3</div>
+    </div>
+    <h6>-flex-coloumn-reverse</h6>
+    <div class="d-flex flex-column-reverse mb-3 border border-dark rounded">
+        <div class="p-2 rounded border border-white bg-primary text-light">item-1</div>
+        <div class="p-2 rounded border border-white bg-primary text-light">item-2</div>
+        <div class="p-2 rounded border border-white bg-primary text-light">item-3</div>
+    </div>
+    <h5>-justify-content</h5>
+    <h6>-justify-content start</h6>
+    <div class="d-flex flex-row justify-content-start mb-3 border border-dark rounded">
+        <div class="p-2 rounded border border-white bg-primary text-light">item-1</div>
+        <div class="p-2 rounded border border-white bg-primary text-light">item-2</div>
+        <div class="p-2 rounded border border-white bg-primary text-light">item-3</div>
+    </div>
+    <h6>-justify-content end</h6>
+    <div class="d-flex flex-row justify-content-end mb-3 border border-dark rounded">
+        <div class="p-2 rounded border border-white bg-primary text-light">item-1</div>
+        <div class="p-2 rounded border border-white bg-primary text-light">item-2</div>
+        <div class="p-2 rounded border border-white bg-primary text-light">item-3</div>
+    </div>
+    <h6>-justify-content center</h6>
+    <div class="d-flex flex-row justify-content-center mb-3 border border-dark rounded">
+        <div class="p-2 rounded border border-white bg-primary text-light">item-1</div>
+        <div class="p-2 rounded border border-white bg-primary text-light">item-2</div>
+        <div class="p-2 rounded border border-white bg-primary text-light">item-3</div>
+    </div>
+    <h6>-justify-content between</h6>
+    <div class="d-flex flex-row justify-content-between mb-3 border border-dark rounded">
+        <div class="p-2 rounded border border-white bg-primary text-light">item-1</div>
+        <div class="p-2 rounded border border-white bg-primary text-light">item-2</div>
+        <div class="p-2 rounded border border-white bg-primary text-light">item-3</div>
+    </div>
+    <h6>-justify-content around</h6>
+    <div class="d-flex flex-row justify-content-around mb-3 border border-dark rounded">
+        <div class="p-2 rounded border border-white bg-primary text-light">item-1</div>
+        <div class="p-2 rounded border border-white bg-primary text-light">item-2</div>
+        <div class="p-2 rounded border border-white bg-primary text-light">item-3</div>
+    </div>
+    <h6>-justify-content evenly</h6>
+    <div class="d-flex flex-row justify-content-evenly mb-3 border border-dark rounded">
+        <div class="p-2 rounded border border-white bg-primary text-light">item-1</div>
+        <div class="p-2 rounded border border-white bg-primary text-light">item-2</div>
+        <div class="p-2 rounded border border-white bg-primary text-light">item-3</div>
+    </div>
+    <h5>-align-item</h5>
+    <h6>-align-item start</h6>
+    <div class="d-flex flex-row align-items-start mb-3 border border-dark rounded" style="height: 100px;">
+        <div class="p-2 rounded border border-white bg-primary text-light">item-1</div>
+        <div class="p-2 rounded border border-white bg-primary text-light">item-2</div>
+        <div class="p-2 rounded border border-white bg-primary text-light">item-3</div>
+    </div>
+    <h6>-align-item end</h6>
+    <div class="d-flex flex-row align-items-end mb-3 border border-dark rounded" style="height: 100px;">
+        <div class="p-2 rounded border border-white bg-primary text-light">item-1</div>
+        <div class="p-2 rounded border border-white bg-primary text-light">item-2</div>
+        <div class="p-2 rounded border border-white bg-primary text-light">item-3</div>
+    </div>
+    <h6>-align-item center</h6>
+    <div class="d-flex flex-row align-items-center mb-3 border border-dark rounded" style="height: 100px;">
+        <div class="p-2 rounded border border-white bg-primary text-light">item-1</div>
+        <div class="p-2 rounded border border-white bg-primary text-light">item-2</div>
+        <div class="p-2 rounded border border-white bg-primary text-light">item-3</div>
+    </div>
+    <h6>-align-item baseline</h6>
+    <div class="d-flex flex-row align-items-baseline mb-3 border border-dark rounded" style="height: 100px;">
+        <div class="p-2 rounded border border-white bg-primary text-light">item-1</div>
+        <div class="p-2 rounded border border-white bg-primary text-light">item-2</div>
+        <div class="p-2 rounded border border-white bg-primary text-light">item-3</div>
+    </div>
+    <h6>-align-item-strech</h6>
+    <div class="d-flex flex-row align-items-strech mb-3 border border-dark rounded" style="height: 100px;">
+        <div class="p-2 rounded border border-white bg-primary text-light">item-1</div>
+        <div class="p-2 rounded border border-white bg-primary text-light">item-2</div>
+        <div class="p-2 rounded border border-white bg-primary text-light">item-3</div>
+    </div>
+    <h5>-align self</h5>
+    <h6>-align-self-start</h6>
+    <div class="d-flex flex-row align-items-strech mb-3 border border-dark rounded" style="height: 100px;">
+        <div class="p-2 rounded border border-white bg-primary text-light">item-1</div>
+        <div class="p-2 rounded align-self-start border border-white bg-primary text-light">item-2</div>
+        <div class="p-2 rounded border border-white bg-primary text-light">item-3</div>
+    </div>
+    <h6>-align-self-end</h6>
+    <div class="d-flex flex-row align-items-strech mb-3 border border-dark rounded" style="height: 100px;">
+        <div class="p-2 rounded border border-white bg-primary text-light">item-1</div>
+        <div class="p-2 rounded align-self-end border border-white bg-primary text-light">item-2</div>
+        <div class="p-2 rounded border border-white bg-primary text-light">item-3</div>
+    </div>
+    <h6>-align-self-center</h6>
+    <div class="d-flex flex-row align-items-strech mb-3 border border-dark rounded" style="height: 100px;">
+        <div class="p-2 rounded border border-white bg-primary text-light">item-1</div>
+        <div class="p-2 rounded align-self-center border border-white bg-primary text-light">item-2</div>
+        <div class="p-2 rounded border border-white bg-primary text-light">item-3</div>
+    </div>
+    <h6>-align-self-baseline</h6>
+    <div class="d-flex flex-row align-items-strech mb-3 border border-dark rounded" style="height: 100px;">
+        <div class="p-2 rounded border border-white bg-primary text-light">item-1</div>
+        <div class="p-2 rounded align-self-baseline border border-white bg-primary text-light">item-2</div>
+        <div class="p-2 rounded border border-white bg-primary text-light">item-3</div>
+    </div>
+    <h6>-align-self-strech</h6>
+    <div class="d-flex flex-row align-items-strech mb-3 border border-dark rounded" style="height: 100px;">
+        <div class="p-2 rounded border border-white bg-primary text-light">item-1</div>
+        <div class="p-2 rounded align-self-strech border border-white bg-primary text-light">item-2</div>
+        <div class="p-2 rounded border border-white bg-primary text-light">item-3</div>
+    </div>
+    <h5>-fill</h5>
+    <div class="d-flex flex-row mb-3 border border-dark rounded">
+        <div class="p-2 rounded flex-fill border border-white bg-primary text-light">item-1</div>
+        <div class="p-2 rounded flex-fill border border-white bg-primary text-light">item-2</div>
+        <div class="p-2 rounded flex-fill border border-white bg-primary text-light">item-3</div>
+    </div>
+    <h5>-grow</h5>
+    <div class="d-flex flex-row mb-3 border border-dark rounded">
+        <div class="p-2 rounded flex-grow-1 border border-white bg-primary text-light">item-1</div>
+        <div class="p-2 rounded border border-white bg-primary text-light">item-2</div>
+        <div class="p-2 rounded border border-white bg-primary text-light">item-3 </div>
+    </div>
+    <h5>-shrink</h5>
+    <div class="d-flex flex-row mb-3 border border-dark rounded">
+        <div class="p-2 rounded w-100  border border-white bg-primary text-light">item-1</div>
+        <div class="p-2 rounded w-100 border border-white bg-primary text-light">item-2</div>
+        <div class="p-2 rounded flex-shrink-1 border border-white bg-primary text-light">item-3 </div>
+    </div>
+    <h5>-auto margins</h5>
+    <div class="d-flex flex-row mb-3 border border-dark rounded">
+        <div class="p-2 rounded me-auto border border-white bg-primary text-light">item-1</div>
+        <div class="p-2 rounded border border-white bg-primary text-light">item-2</div>
+        <div class="p-2 rounded border border-white bg-primary text-light">item-3 </div>
+    </div>
+    <div class="d-flex flex-row mb-3 border border-dark rounded">
+        <div class="p-2 rounded  border border-white bg-primary text-light">item-1</div>
+        <div class="p-2 rounded border border-white bg-primary text-light">item-2</div>
+        <div class="p-2 rounded ms-auto border border-white bg-primary text-light">item-3 </div>
+    </div>
+    <h5>-with align items</h5>
+    <div class="d-flex align-items-start flex-column mb-3 border border-dark rounded" style="height: 200px;">
+        <div class="p-2 mb-auto rounded  border border-white bg-primary text-light">item-1</div>
+        <div class="p-2 rounded border border-white bg-primary text-light">item-2</div>
+        <div class="p-2 rounded border border-white bg-primary text-light">item-3 </div>
+    </div>
+    <div class="d-flex align-items-end flex-column mb-3 border border-dark rounded" style="height: 200px;">
+        <div class="p-2 rounded  border border-white bg-primary text-light">item-1</div>
+        <div class="p-2 rounded border border-white bg-primary text-light">item-2</div>
+        <div class="p-2 mt-auto rounded border border-white bg-primary text-light">item-3 </div>
+    </div>
+    <h5>-wrap</h5>
+    <h6>-no-warp</h6>
+    <div class="d-flex flex-row flex-nowrap mb-3 border border-dark rounded " style="width: 150px;">
+        <div class="p-2 rounded  border border-white bg-primary text-light">item-1</div>
+        <div class="p-2 rounded border border-white bg-primary text-light">item-2</div>
+        <div class="p-2 rounded border border-white bg-primary text-light">item-3 </div>
+    </div>
+    <h6>-wrap</h6>
+    <div class="d-flex flex-row flex-wrap mb-3 border border-dark rounded " style="width: 150px;">
+        <div class="p-2 rounded  border border-white bg-primary text-light">item-1</div>
+        <div class="p-2 rounded border border-white bg-primary text-light">item-2</div>
+        <div class="p-2 rounded border border-white bg-primary text-light">item-3 </div>
+    </div>
+    <h6>-wrap-reverse</h6>
+    <div class="d-flex flex-row flex-wrap-reverse mb-3 border border-dark rounded " style="width: 150px;">
+        <div class="p-2 rounded  border border-white bg-primary text-light">item-1</div>
+        <div class="p-2 rounded border border-white bg-primary text-light">item-2</div>
+        <div class="p-2 rounded border border-white bg-primary text-light">item-3 </div>
+    </div>
+    <h5>-order</h5>
+    <div class="d-flex flex-row mb-3 border border-dark rounded">
+        <div class="p-2 order-3 rounded  border border-white bg-primary text-light">item-1</div>
+        <div class="p-2 order-2 rounded border border-white bg-primary text-light">item-2</div>
+        <div class="p-2 order-1 rounded border border-white bg-primary text-light">item-3 </div>
+    </div>
+    <h5>-align-content</h5>
+    <h6>-align-content start</h6>
+    <div class="d-flex flex- flex-wrap flex-wrap align-content-start mb-3 border border-dark rounded"
+        style="height: 100px;">
+        <div class="p-2 rounded border border-white bg-primary text-light">item-1</div>
+        <div class="p-2 rounded border border-white bg-primary text-light">item-2</div>
+        <div class="p-2 rounded border border-white bg-primary text-light">item-3</div>
+        <div class="p-2 rounded border border-white bg-primary text-light">item-4</div>
+        <div class="p-2 rounded border border-white bg-primary text-light">item-5</div>
+        <div class="p-2 rounded border border-white bg-primary text-light">item-6</div>
+        <div class="p-2 rounded border border-white bg-primary text-light">item-7</div>
+        <div class="p-2 rounded border border-white bg-primary text-light">item-8</div>
+        <div class="p-2 rounded border border-white bg-primary text-light">item-9</div>
+        <div class="p-2 rounded border border-white bg-primary text-light">item-10</div>
+        <div class="p-2 rounded border border-white bg-primary text-light">item-11</div>
+        <div class="p-2 rounded border border-white bg-primary text-light">item-12</div>
+        <div class="p-2 rounded border border-white bg-primary text-light">item-13</div>
+        <div class="p-2 rounded border border-white bg-primary text-light">item-14</div>
+        <div class="p-2 rounded border border-white bg-primary text-light">item-15</div>
+        <div class="p-2 rounded border border-white bg-primary text-light">item-16</div>
+        <div class="p-2 rounded border border-white bg-primary text-light">item-17</div>
+        <div class="p-2 rounded border border-white bg-primary text-light">item-18</div>
+        <div class="p-2 rounded border border-white bg-primary text-light">item-19</div>
+        <div class="p-2 rounded border border-white bg-primary text-light">item-20</div>
+        <div class="p-2 rounded border border-white bg-primary text-light">item-21</div>
+    </div>
+    <h6>-align-content end</h6>
+    <div class="d-flex flex- flex-wrap align-content-end mb-3 border border-dark rounded" style="height: 100px;">
+        <div class="p-2 rounded border border-white bg-primary text-light">item-1</div>
+        <div class="p-2 rounded border border-white bg-primary text-light">item-2</div>
+        <div class="p-2 rounded border border-white bg-primary text-light">item-3</div>
+        <div class="p-2 rounded border border-white bg-primary text-light">item-4</div>
+        <div class="p-2 rounded border border-white bg-primary text-light">item-5</div>
+        <div class="p-2 rounded border border-white bg-primary text-light">item-6</div>
+        <div class="p-2 rounded border border-white bg-primary text-light">item-7</div>
+        <div class="p-2 rounded border border-white bg-primary text-light">item-8</div>
+        <div class="p-2 rounded border border-white bg-primary text-light">item-9</div>
+        <div class="p-2 rounded border border-white bg-primary text-light">item-10</div>
+        <div class="p-2 rounded border border-white bg-primary text-light">item-11</div>
+        <div class="p-2 rounded border border-white bg-primary text-light">item-12</div>
+        <div class="p-2 rounded border border-white bg-primary text-light">item-13</div>
+        <div class="p-2 rounded border border-white bg-primary text-light">item-14</div>
+        <div class="p-2 rounded border border-white bg-primary text-light">item-15</div>
+        <div class="p-2 rounded border border-white bg-primary text-light">item-16</div>
+        <div class="p-2 rounded border border-white bg-primary text-light">item-17</div>
+        <div class="p-2 rounded border border-white bg-primary text-light">item-18</div>
+        <div class="p-2 rounded border border-white bg-primary text-light">item-19</div>
+        <div class="p-2 rounded border border-white bg-primary text-light">item-20</div>
+        <div class="p-2 rounded border border-white bg-primary text-light">item-21</div>
+    </div>
+    <h6>-align-content center</h6>
+    <div class="d-flex flex- flex-wrap align-content-center mb-3 border border-dark rounded" style="height: 100px;">
+        <div class="p-2 rounded border border-white bg-primary text-light">item-1</div>
+        <div class="p-2 rounded border border-white bg-primary text-light">item-2</div>
+        <div class="p-2 rounded border border-white bg-primary text-light">item-3</div>
+        <div class="p-2 rounded border border-white bg-primary text-light">item-4</div>
+        <div class="p-2 rounded border border-white bg-primary text-light">item-5</div>
+        <div class="p-2 rounded border border-white bg-primary text-light">item-6</div>
+        <div class="p-2 rounded border border-white bg-primary text-light">item-7</div>
+        <div class="p-2 rounded border border-white bg-primary text-light">item-8</div>
+        <div class="p-2 rounded border border-white bg-primary text-light">item-9</div>
+        <div class="p-2 rounded border border-white bg-primary text-light">item-10</div>
+        <div class="p-2 rounded border border-white bg-primary text-light">item-11</div>
+        <div class="p-2 rounded border border-white bg-primary text-light">item-12</div>
+        <div class="p-2 rounded border border-white bg-primary text-light">item-13</div>
+        <div class="p-2 rounded border border-white bg-primary text-light">item-14</div>
+        <div class="p-2 rounded border border-white bg-primary text-light">item-15</div>
+        <div class="p-2 rounded border border-white bg-primary text-light">item-16</div>
+        <div class="p-2 rounded border border-white bg-primary text-light">item-17</div>
+        <div class="p-2 rounded border border-white bg-primary text-light">item-18</div>
+        <div class="p-2 rounded border border-white bg-primary text-light">item-19</div>
+        <div class="p-2 rounded border border-white bg-primary text-light">item-20</div>
+        <div class="p-2 rounded border border-white bg-primary text-light">item-21</div>
+    </div>
+    <h6>-align-content between</h6>
+    <div class="d-flex flex- flex-wrap align-content-between mb-3 border border-dark rounded" style="height: 100px;">
+        <div class="p-2 rounded border border-white bg-primary text-light">item-1</div>
+        <div class="p-2 rounded border border-white bg-primary text-light">item-2</div>
+        <div class="p-2 rounded border border-white bg-primary text-light">item-3</div>
+        <div class="p-2 rounded border border-white bg-primary text-light">item-4</div>
+        <div class="p-2 rounded border border-white bg-primary text-light">item-5</div>
+        <div class="p-2 rounded border border-white bg-primary text-light">item-6</div>
+        <div class="p-2 rounded border border-white bg-primary text-light">item-7</div>
+        <div class="p-2 rounded border border-white bg-primary text-light">item-8</div>
+        <div class="p-2 rounded border border-white bg-primary text-light">item-9</div>
+        <div class="p-2 rounded border border-white bg-primary text-light">item-10</div>
+        <div class="p-2 rounded border border-white bg-primary text-light">item-11</div>
+        <div class="p-2 rounded border border-white bg-primary text-light">item-12</div>
+        <div class="p-2 rounded border border-white bg-primary text-light">item-13</div>
+        <div class="p-2 rounded border border-white bg-primary text-light">item-14</div>
+        <div class="p-2 rounded border border-white bg-primary text-light">item-15</div>
+        <div class="p-2 rounded border border-white bg-primary text-light">item-16</div>
+        <div class="p-2 rounded border border-white bg-primary text-light">item-17</div>
+        <div class="p-2 rounded border border-white bg-primary text-light">item-18</div>
+        <div class="p-2 rounded border border-white bg-primary text-light">item-19</div>
+        <div class="p-2 rounded border border-white bg-primary text-light">item-20</div>
+        <div class="p-2 rounded border border-white bg-primary text-light">item-21</div>
+    </div>
+    <h6>-align-content around</h6>
+    <div class="d-flex flex- flex-wrap align-content-around mb-3 border border-dark rounded" style="height: 100px;">
+        <div class="p-2 rounded border border-white bg-primary text-light">item-1</div>
+        <div class="p-2 rounded border border-white bg-primary text-light">item-2</div>
+        <div class="p-2 rounded border border-white bg-primary text-light">item-3</div>
+        <div class="p-2 rounded border border-white bg-primary text-light">item-4</div>
+        <div class="p-2 rounded border border-white bg-primary text-light">item-5</div>
+        <div class="p-2 rounded border border-white bg-primary text-light">item-6</div>
+        <div class="p-2 rounded border border-white bg-primary text-light">item-7</div>
+        <div class="p-2 rounded border border-white bg-primary text-light">item-8</div>
+        <div class="p-2 rounded border border-white bg-primary text-light">item-9</div>
+        <div class="p-2 rounded border border-white bg-primary text-light">item-10</div>
+        <div class="p-2 rounded border border-white bg-primary text-light">item-11</div>
+        <div class="p-2 rounded border border-white bg-primary text-light">item-12</div>
+        <div class="p-2 rounded border border-white bg-primary text-light">item-13</div>
+        <div class="p-2 rounded border border-white bg-primary text-light">item-14</div>
+        <div class="p-2 rounded border border-white bg-primary text-light">item-15</div>
+        <div class="p-2 rounded border border-white bg-primary text-light">item-16</div>
+        <div class="p-2 rounded border border-white bg-primary text-light">item-17</div>
+        <div class="p-2 rounded border border-white bg-primary text-light">item-18</div>
+        <div class="p-2 rounded border border-white bg-primary text-light">item-19</div>
+        <div class="p-2 rounded border border-white bg-primary text-light">item-20</div>
+        <div class="p-2 rounded border border-white bg-primary text-light">item-21</div>
+    </div>
+    <h6>-align-content baseline</h6>
+    <div class="d-flex flex- flex-wrap align-content-baseline mb-3 border border-dark rounded" style="height: 100px;">
+        <div class="p-2 rounded border border-white bg-primary text-light">item-1</div>
+        <div class="p-2 rounded border border-white bg-primary text-light">item-2</div>
+        <div class="p-2 rounded border border-white bg-primary text-light">item-3</div>
+        <div class="p-2 rounded border border-white bg-primary text-light">item-4</div>
+        <div class="p-2 rounded border border-white bg-primary text-light">item-5</div>
+        <div class="p-2 rounded border border-white bg-primary text-light">item-6</div>
+        <div class="p-2 rounded border border-white bg-primary text-light">item-7</div>
+        <div class="p-2 rounded border border-white bg-primary text-light">item-8</div>
+        <div class="p-2 rounded border border-white bg-primary text-light">item-9</div>
+        <div class="p-2 rounded border border-white bg-primary text-light">item-10</div>
+        <div class="p-2 rounded border border-white bg-primary text-light">item-11</div>
+        <div class="p-2 rounded border border-white bg-primary text-light">item-12</div>
+        <div class="p-2 rounded border border-white bg-primary text-light">item-13</div>
+        <div class="p-2 rounded border border-white bg-primary text-light">item-14</div>
+        <div class="p-2 rounded border border-white bg-primary text-light">item-15</div>
+        <div class="p-2 rounded border border-white bg-primary text-light">item-16</div>
+        <div class="p-2 rounded border border-white bg-primary text-light">item-17</div>
+        <div class="p-2 rounded border border-white bg-primary text-light">item-18</div>
+        <div class="p-2 rounded border border-white bg-primary text-light">item-19</div>
+        <div class="p-2 rounded border border-white bg-primary text-light">item-20</div>
+        <div class="p-2 rounded border border-white bg-primary text-light">item-21</div>
+    </div>
+    <h6>-align-content strech</h6>
+    <div class="d-flex flex- flex-wrap align-content-strech mb-3 border border-dark rounded" style="height: 100px;">
+        <div class="p-2 rounded border border-white bg-primary text-light">item-1</div>
+        <div class="p-2 rounded border border-white bg-primary text-light">item-2</div>
+        <div class="p-2 rounded border border-white bg-primary text-light">item-3</div>
+        <div class="p-2 rounded border border-white bg-primary text-light">item-4</div>
+        <div class="p-2 rounded border border-white bg-primary text-light">item-5</div>
+        <div class="p-2 rounded border border-white bg-primary text-light">item-6</div>
+        <div class="p-2 rounded border border-white bg-primary text-light">item-7</div>
+        <div class="p-2 rounded border border-white bg-primary text-light">item-8</div>
+        <div class="p-2 rounded border border-white bg-primary text-light">item-9</div>
+        <div class="p-2 rounded border border-white bg-primary text-light">item-10</div>
+        <div class="p-2 rounded border border-white bg-primary text-light">item-11</div>
+        <div class="p-2 rounded border border-white bg-primary text-light">item-12</div>
+        <div class="p-2 rounded border border-white bg-primary text-light">item-13</div>
+        <div class="p-2 rounded border border-white bg-primary text-light">item-14</div>
+        <div class="p-2 rounded border border-white bg-primary text-light">item-15</div>
+        <div class="p-2 rounded border border-white bg-primary text-light">item-16</div>
+        <div class="p-2 rounded border border-white bg-primary text-light">item-17</div>
+        <div class="p-2 rounded border border-white bg-primary text-light">item-18</div>
+        <div class="p-2 rounded border border-white bg-primary text-light">item-19</div>
+        <div class="p-2 rounded border border-white bg-primary text-light">item-20</div>
+        <div class="p-2 rounded border border-white bg-primary text-light">item-21</div>
+    </div>
+    <h5>-media object</h5>
+    <div class="d-flex border border-dark rounded bg-primary text-light" style="width: 540px;">
+        <div class="flex-shrink-1">
+            <img src="/about.webp" class="rounded" alt="" width="100%">
+        </div>
+        <div class="flex-grow-1 ms-3">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque animi quas dolorum optio obcaecati,
+            nisi unde vel dolorem qui odio eligendi id. Impedit, omnis iste quidem vero quia natus aliquam!
+        </div>
+    </div>
+
+    <!-- flex box end -->
+
+    <hr>
+    <!-- float start -->
+    <h2 class="bg-warning">float</h2>
+    <div class="float-start">item-1</div>
+    <br>
+    <div class="float-end">item-1</div>
+    <br>
+    <div class="float-none">item-1</div>
+    <br>
+    <!-- float end -->
+    <hr>
+    <!-- iteraction start -->
+    <h2 class="bg-warning">iteraction</h2>
+    <h5>text selection</h5>
+    <h6>-select all</h6>
+    <p class="user-select-all">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque quasi eligendi ratione,
+        odio, ut corporis quam consequatur reiciendis nulla consequuntur voluptatum ab minima praesentium nesciunt
+        natus. Sint beatae nostrum numquam?</p>
+    <h6>-select auto</h6>
+    <p class="user-select-auto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque quasi eligendi ratione,
+        odio, ut corporis quam consequatur reiciendis nulla consequuntur voluptatum ab minima praesentium nesciunt
+        natus. Sint beatae nostrum numquam?</p>
+    <h6>-select none</h6>
+    <p class="user-select-none">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque quasi eligendi ratione,
+        odio, ut corporis quam consequatur reiciendis nulla consequuntur voluptatum ab minima praesentium nesciunt
+        natus. Sint beatae nostrum numquam?</p>
+    <h5>pointer event</h5>
+    <h6>-pointer event-none</h6>
+    <p><a href="" class="pe-none">link</a> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maxime optio
+        nostrum exercitationem voluptatum ea asperiores eaque fugiat laborum, sequi consequuntur dolores incidunt
+        eligendi, molestiae sunt quasi. Officiis vero sint veniam.</p>
+    <h6>-pointer event-auto</h6>
+    <p><a href="#" class="pe-auto">link</a> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maxime optio
+        nostrum exercitationem voluptatum ea asperiores eaque fugiat laborum, sequi consequuntur dolores incidunt
+        eligendi, molestiae sunt quasi. Officiis vero sint veniam.</p>
+    <!-- iteraction end -->
+
+
+    <hr>
+    <!-- overflow start -->
+    <h2 class="bg-warning">overflow</h2>
+    <h5>overflow auto</h5>
+    <div class="overflow-auto border border-dark p-2 rounded" style="width: 200px; height: 200px;"> Lorem ipsum, dolor
+        sit amet consectetur adipisicing elit. Voluptates veniam aliquam cupiditate et dolorum dignissimos, cum impedit
+        at nobis magnam. Perspiciatis eaque nobis non necessitatibus, itaque modi molestias expedita adipisci.</div>
+    <br>
+    <h5>overflow hidden</h5>
+    <div class="overflow-hidden border border-dark p-2 rounded" style="width: 200px; height: 200px;"> Lorem ipsum, dolor
+        sit amet consectetur adipisicing elit. Voluptates veniam aliquam cupiditate et dolorum dignissimos, cum impedit
+        at nobis magnam. Perspiciatis eaque nobis non necessitatibus, itaque modi molestias expedita adipisci.</div>
+    <h5>overflow visible</h5>
+    <div class="overflow-visible border border-dark p-2 rounded" style="width: 200px; height: 200px;"> Lorem ipsum,
+        dolor sit amet consectetur adipisicing elit. Voluptates veniam aliquam cupiditate et dolorum dignissimos, cum
+        impedit at nobis magnam. Perspiciatis eaque nobis non necessitatibus, itaque modi molestias expedita adipisci.
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <h5>overflow scroll</h5>
+    <div class="overflow-scroll border border-dark p-2 rounded" style="width: 200px; height: 200px;"> Lorem ipsum, dolor
+        sit amet consectetur adipisicing elit. Voluptates veniam aliquam cupiditate et dolorum dignissimos, cum impedit
+        at nobis magnam. Perspiciatis eaque nobis non necessitatibus, itaque modi molestias expedita adipisci.</div>
+
+
+    <!-- overflow end -->
+
+    <hr>
+    <!-- position start -->
+    <br>
+    <h2 class="bg-warning">position</h2>
+
+    <h5>-progress bar</h5>
+    <br>
+    <div class="position-relative">
+        <div class="progress" style="height: 2px;">
+            <div class="progress-bar" style="width: 50%;" aria-valuemin="0" aria-valuemax="100"></div>
+        </div>
+        <button
+            class="position-absolute top-0 ps-2 pe-2 start-0 rounded-circle border border-0 bg-primary translate-middle text-light">1</button>
+        <button
+            class="position-absolute top-0 ps-2 pe-2 start-50 rounded-circle border border-0 bg-primary translate-middle text-light">2</button>
+        <button
+            class="position-absolute top-0 ps-2 pe-2 start-100 rounded-circle border border-0 bg-secondary translate-middle text-light">3</button>
+
+    </div>
+    <br>
+    <!-- position end -->
+
+    <hr>
+    <!-- shadow start -->
+    <h2 class="bg-warning ">shadows</h2>
+    <h6>shadow none</h6>
+    <div class="shadow-none p-3 rounded bg-body mb-5">shadow none</div>
+    <h6>shadow small</h6>
+    <div class="shadow-sm p-3 rounded bg-body mb-5">shadow small</div>
+    <h6>shadow</h6>
+    <div class="shadow p-3 rounded bg-body mb-5">shadow </div>
+    <h6>shadow long</h6>
+    <div class="shadow-lg p-3 rounded bg-body mb-5">shadow long</div>
+    <!-- shadow end -->
+
+    <hr>
+    <br>
+    <!-- sizing start -->
+    <h2 class="bg-warning">sizing</h2>
+    <h6>-width</h6>
+    <div class="w-25 p-2 mb-2" style="background-color: aquamarine; ">25%</div>
+    <div class="w-50 p-2 mb-2" style="background-color: aquamarine;">50%</div>
+    <div class="w-75 p-2 mb-2" style="background-color: aquamarine;">75%</div>
+    <div class="w-100 p-2 mb-2" style="background-color: aquamarine;">100%</div>
+    <div class="w-auto p-2 mb-2" style="background-color: aquamarine;">auto</div>
+    <h6>-height</h6>
+    <div style="height: 100px;">
+        <div class="h-25 d-inline-block p-2 me-1" style="background-color: aquamarine; width: 120px; ">25%</div>
+        <div class="h-50 d-inline-block p-2 me-1" style="background-color: aquamarine; width: 120px; ">50%</div>
+        <div class="h-75 d-inline-block p-2 me-1" style="background-color: aquamarine; width: 120px; ">75%</div>
+        <div class="h-100 d-inline-block p-2 me-1" style="background-color: aquamarine; width: 120px; ">100%</div>
+        <div class="h-auto d-inline-block p-2 me-1" style="background-color: aquamarine; width: 120px; ">auto</div>
+    </div>
+    <h6>-max-width</h6>
+    <img src="/about.webp" alt="" class="mw-100">
+    <h6>-max-height</h6>
+    <div style="height: 100px; background: rgba(0, 128, 128, 0.63);">
+        <div class="mh-100" style="width: 100px; height:200px; background: teal;">max height</div>
+    </div>
+    <!-- sizing end -->
+
+
+    <hr>
+
+    <br>
+    <!-- spacing start -->
+    <h2 class="bg-warning">spacing</h2>
+    <h6>-gap</h6>
+    <div class="d-grid gap-2">
+        <div class="p-2 border border-dark rounded">item-1</div>
+        <div class="p-2 border border-dark rounded">item-2</div>
+        <div class="p-2 border border-dark rounded">item-3</div>
+    </div>
+    <!-- spacing end -->
+
+
+    <hr>
+    <br>
+    <!-- text start -->
+    <h2 class="bg-warning">text</h2>
+    <h5>-text-alignment</h5>
+    <h6>-start</h6>
+    <p class="text-start">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, maiores! Illo itaque
+        doloremque corrupti nostrum modi molestiae quaerat, distinctio, laboriosam velit deleniti rerum numquam tempore
+        blanditiis ut pariatur. Deleniti, veritatis.</p>
+    <h6>-center </h6>
+    <p class="text-center">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nihil, eligendi nam! Voluptas
+        facere quas architecto ducimus laudantium corrupti incidunt illum ut ab sint, tempore commodi temporibus error
+        doloribus, ratione perferendis.</p>
+    <h6>-end </h6>
+    <p class="text-end">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis non nemo harum labore consectetur
+        asperiores repudiandae, praesentium ipsum iusto. Commodi vitae dolorem quibusdam accusamus ipsa voluptas soluta
+        quasi repellat. Asperiores.</p>
+
+    <!-- text end -->
+    <hr>
+    <br>
+    <!-- vertical alignment start -->
+    <h2 class="bg-warning">vertical alignment</h2>
+    <h6>-with inline element</h6>
+        <span class="align-baseline border border-danger">baseline</span>
+        <span class="align-top border border-danger">top</span>
+        <span class="align-middle border border-danger">middle</span>
+        <span class="align-bottom border border-danger">bottom</span>
+        <span class="align-text-top border border-danger">text-top</span>
+        <span class="align-text-bottom border border-danger">text-bottom</span>
+    <h6>-with table cells </h6>
+    <table style="height: 100px;">
+        <tbody>
+            <tr>
+                <td class="align-baseline">baseline</td>
+                <td class="align-top">top</td>
+                <td class="align-middle">middle</td>
+                <td class="align-bottom">bottom</td>
+                <td class="align-text-top">text-top</td>
+                <td class="align-text-bottom">text-bottom</td>
+                
+            </tr>
+        </tbody>
+    </table>
+    <!-- vertical alignment end -->
+
+    <hr>
+    <br>
+    <!-- visibility start-->
+     <h2 class="bg-warning">visibility</h2>
+    <h6>-visible</h6>
+    <p class="visible">visible content</p>
+    <h6>-invisible</h6>
+    <p class="invisible">invisible content</p>
+
+    <!-- visibility end-->
+    <script src="/bootstrap-5.3.6-dist/js/bootstrap.bundle.js"></script>
+</body>
+
+</html>

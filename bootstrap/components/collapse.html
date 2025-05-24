@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/bootstrap-5.3.6-dist/css/bootstrap.min.css">
+</head>
+
+<body class="m-3">
+    <h2>collapse example</h2>
+    <p>
+        <a type="button" class="btn btn-primary" data-bs-toggle="collapse" aria-expanded="false" data-bs-target="#col"
+            aria-controls="col">collapse</a>
+        <button type="button" class="btn btn-primary" data-bs-toggle="collapse" aria-expanded="false"
+            data-bs-target="#col" aria-controls="col">collapse</button>
+    </p>
+    <div class="collapse" id="col">
+        <div class="card card-body">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut dicta quos accusantium dolorum excepturi
+            tempore saepe, facere quo commodi maiores at illum deserunt ipsa nulla expedita, praesentium nostrum a quod.
+        </div>
+    </div>
+    <h2>multi collapse</h2>
+    <p>
+        <button class="btn btn-primary" data-bs-toggle="collapse" data-bs-target="#multicol1" aria-expanded="false" aria-controls="multicol2">collapse item-1</button>
+        <button class="btn btn-primary" data-bs-toggle="collapse" data-bs-target="#multicol2" aria-expanded="false" aria-controls="multicol2">collapse item-2</button>
+        <button class="btn btn-primary" data-bs-toggle="collapse" data-bs-target=".multi-collapse" aria-expanded="false" aria-controls="multi-collapse">collapse both item</button>
+    </p>
+    <div class="row">
+        <div class="col">
+            <div class="collapse multi-collapse" id="multicol1">
+                <div class="card card-body">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis eaque totam eius quae, nemo
+                    ducimus suscipit iste consequatur fugiat! Ratione veritatis animi repellendus odio quibusdam ex
+                    deleniti adipisci delectus dolor.
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="collapse multi-collapse" id="multicol2">
+                <div class="card card-body">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis eaque totam eius quae, nemo
+                    ducimus suscipit iste consequatur fugiat! Ratione veritatis animi repellendus odio quibusdam ex
+                    deleniti adipisci delectus dolor.
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="/bootstrap-5.3.6-dist/js/bootstrap.bundle.js"></script>
+</body>
+
+</html>

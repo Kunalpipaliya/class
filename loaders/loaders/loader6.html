@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .main{
+            width: 100vw;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items:center ;
+        }
+        .circle{
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            border: 10px solid gray;
+            display: flex;
+            position: relative;
+            animation: zoom 1s linear infinite;
+        }
+        @keyframes zoom{
+            0%{
+                transform:scale(0.5);
+                opacity: 0;
+            }
+            100%{
+                transform: scale(1);
+                opacity: 1;
+            }
+        }
+      
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="circle"></div>
+    </div>
+</body>
+</html>

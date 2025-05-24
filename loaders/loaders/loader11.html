@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .main {
+            width: 100vw;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .box
+        {
+            width: 40px;
+            height:  40px;
+            background: #000;
+            animation: loader 1s linear infinite;
+            border-radius:5px;
+        }
+        @keyframes loader{
+            0%{
+               
+            }
+            50%{
+                
+                transform: perspective(120px)rotateX(180deg) rotateY(0);
+            }
+            100%{
+                transform: perspective(120px) rotateX(180deg) rotateY(-180deg) ;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="main">
+        <div class="box"></div>
+    </div>
+</body>
+
+</html>

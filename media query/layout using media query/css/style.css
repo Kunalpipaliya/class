@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    text-transform: capitalize;
+    color: #334456;
+}
+.w-100{
+    width:calc(100% - 10px);
+    /* background-color: blue; */
+    margin: 5px;
+}
+.logo{
+    width: 10%;
+    background-color: #38c8fe;
+    text-align: center;
+    padding: 10px;
+}
+.menu
+{
+    width: 90%;
+    text-align: center;
+    background-color: #ffaf47;
+    padding: 10px;
+}
+.slider{
+    height: 500px;
+    width: 100%;
+    text-align: center;
+    background: #ff7747;
+    line-height: 500px;
+}
+.flex{
+    display: flex;
+}
+.w-1140{
+    width: 1140px;
+    margin: auto;
+    gap: 5px;
+
+}
+.w-33{
+    width: 33.33%;
+    height: 200px;
+    background: #ffd647;
+    text-align: center;
+    line-height: 200px;
+}
+.footer{
+    background-color: pink;
+    text-align: center;
+    padding: 10px;
+}
+@media (max-width:1200px){
+    .w-1140{
+        width:1140px;
+        margin: auto;
+        gap: 5px;
+    
+    }
+}
+@media (min-width:993px) and (max-width:1140px){
+    .w-1140{
+        width:960px;
+    }
+}
+@media (max-width:992px){
+    .w-1140{
+        width:960px;
+        margin: auto;
+        gap: 5px;
+    
+    }
+    .slider{
+        height: 400px;
+        width: 100%;
+        text-align: center;
+        background: #ff7747;
+        line-height: 400px;
+    }
+}
+@media (min-width:769px) and (max-width:960px){
+    .w-1140{
+        width:720px;
+    }
+}
+@media (max-width:768px){
+    .w-1140{
+        width:720px;
+        margin: auto;
+        gap: 5px;
+    
+    }
+    .slider{
+        height: 350px;
+        width: 100%;
+        text-align: center;
+        background: #ff7747;
+        line-height: 350px;
+    }
+}
+@media (min-width:577px) and (max-width:720px){
+    .w-1140{
+        width:540px;
+    }
+}
+@media (max-width:576px){
+    .logo{
+        width: 30%;
+        background-color: #38c8fe;
+        text-align: center;
+        padding: 10px;
+    }
+    .menu
+    {
+        width:68%;
+        text-align: center;
+        background-color: #ffaf47;
+       
+    }
+    .w-1140{
+        width:100%;
+        margin: auto;
+      
+    
+    }
+    .flex{
+        display: flex;
+        flex-wrap: wrap
+    }
+    .w-33{
+        width: 100%;
+        height: 100px;
+        background: #ffd647;
+        text-align: center;
+        line-height: 100px;
+    }
+    .slider{
+        height:300px;
+        width: 100%;
+        text-align: center;
+        background: #ff7747;
+        line-height: 300px;
+    }
+}

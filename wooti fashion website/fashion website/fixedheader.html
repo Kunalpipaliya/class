@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="fontawesome-free-6.7.2-web/css/all.min.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            text-decoration: none;
+            list-style: none;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            text-transform: capitalize;
+        }
+
+        .top {
+            background: #ffffff;
+            display: flex;
+            justify-content: space-between;
+            padding: 20px;
+        }
+
+        .top ul {
+            display: flex;
+        }
+
+        .top ul li a {
+
+            color: #000;
+        }
+
+        .down {
+            display: flex;
+            justify-content: space-between;
+            color: #ffffff;
+            padding: 20px;
+            background: #000;
+            position: sticky;
+            top: 0;
+        }
+
+        ul {
+            display: flex;
+        }
+
+        ul li {
+            padding: 10px 20px;
+        }
+
+        .down ul li a {
+            color: #fff;
+        }
+
+        .box {
+            display: flex;
+            overflow: scroll;
+
+        }
+
+        .box::-webkit-scrollbar {
+            display: none;
+        }
+
+        .products {
+            gap: 10px;
+            margin-top: 20px;
+            display: flex;
+            overflow: scroll;
+        }
+
+        .products::-webkit-scrollbar {
+            display: none;
+        }
+    </style>
+</head>
+
+<body>
+    <header class="top">
+        <ul>
+            <li><a href=""> logo</a></li>
+        </ul>
+        <ul>
+            <li><a href="">home</a></li>
+            <li><a href="">about</a></li>
+            <li><a href="">product</a></li>
+            <li><a href="">contact</a></li>
+        </ul>
+        <ul>
+            <li><a href=""><i class="fa-solid fa-user"></i></a></li>
+        </ul>
+    </header>
+    <header class="top">
+        <ul>
+            <li><a href=""> logo</a></li>
+        </ul>
+        <ul>
+            <li><a href="">home</a></li>
+            <li><a href="">about</a></li>
+            <li><a href="">product</a></li>
+            <li><a href="">contact</a></li>
+        </ul>
+        <ul>
+            <li><a href=""><i class="fa-solid fa-user"></i></a></li>
+        </ul>
+    </header>
+    <header class="down">
+        <ul>
+            <li><a href=""> logo</a></li>
+        </ul>
+        <ul>
+            <li><a href="">home</a></li>
+            <li><a href="">about</a></li>
+            <li><a href="">product</a></li>
+            <li><a href="">contact</a></li>
+        </ul>
+        <ul>
+            <li><a href=""><i class="fa-solid fa-user"></i></a></li>
+        </ul>
+    </header>
+    <div class="box">
+
+
+
+        <img src="/img/Slider_1.jpg" alt="" width="100%" id="1">
+
+
+
+        <img src="/img/Slider_2.jpg" alt="" width="100%" id="2">
+    </div>
+    
+   <a href="#1"><i class="fa-solid fa-chevron-left"></i></a> <a href="#2"><i class="fa-solid fa-chevron-right"></i></a> 
+    <div class="products">
+        <img src="img/bag.jpg" alt="" width="100%">
+        <img src="/img/cloths.jpg" alt="" width="100%">
+        <img src="/img/footware.jpg" alt="" width="100%">
+        <img src="/img/sunglasses.jpg" alt="" width="100%">
+        <img src="/img/watch.jpg" alt="" width="100%">
+    </div>
+
+ 
+</body>
+
+</html>
