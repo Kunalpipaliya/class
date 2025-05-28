@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/bootstrap-5.3.6-dist/css/bootstrap.min.css">
+</head>
+
+<body>
+    <button class="btn btn-primary" id="toastbtn">live toast</button>
+    <div class="position-fixed bottom-0 end-0 p-3" style="z-index: 11;">
+        <div id="livetoast" class="toast hide" aria-live="assertive" aria-atomic="true">
+            <div class="toast-header">
+                <strong class="me-auto">live toast testing</strong>
+                <small>11 mins ago</small>
+                <button class="btn-close" data-bs-dismiss="toast"></button>
+            </div>
+            <div class="toast-body">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis sunt sed repellat iste! Maiores
+                fuga voluptas provident distinctio quaerat? Possimus explicabo, officia nulla doloremque ducimus saepe
+                repellendus vero sit? Maxime.
+            </div>
+        </div>
+    </div>
+    <button type="button" class="btn btn-primary" id="liveToastBtn">Show live toast</button>
+    
+    <div class="position-fixed bottom-0 end-0 p-3" style="z-index: 11">
+        <div id="liveToast" class="toast hide" role="alert" aria-live="assertive" aria-atomic="true">
+            <div class="toast-header">
+                <img src="..." class="rounded me-2" alt="...">
+                <strong class="me-auto">Bootstrap</strong>
+                <small>11 mins ago</small>
+                <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+            </div>
+            <div class="toast-body">
+                Hello, world! This is a toast message.
+            </div>
+        </div>
+    </div>
+    <script src="/bootstrap-5.3.6-dist/js/bootstrap.bundle.js"></script>
+    <script src="/bootstrap-5.3.6-dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

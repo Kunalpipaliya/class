@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/bootstrap-5.3.6-dist/css/bootstrap.min.css">
+</head>
+<body class="m-3">
+    <nav id="scrollspy1" class="navbar m-auto navbar-light bg-light p-3 w-50">
+        <a href="" class="navbar-brand">Logo</a>
+        <ul class="nav nav-pills">
+            <li class="nav-item">
+                <a href="#sh1" class="nav-link">first</a>
+            </li>
+            <li class="nav-item">
+                <a href="#sh2" class="nav-link">second</a>
+            </li>
+            <li class="nav-item">
+                <a href="#sh3" class="nav-link">third</a>
+            </li>
+            <div class="nav-item">
+                <a href="#sh4" class="nav-link">forth</a>
+            </div>
+        </ul>
+    </nav>
+    <div class="scrollspy-example w-50 m-auto" data-bs-spy="scroll" data-bs-target="#scrollspy1" data-bs-offset="0" tabindex="0" style="height: 120px;overflow-y:scroll;">
+        <h4 id="sh1">First Heading</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod iure quisquam numquam consequuntur illum eum cumque at. Repudiandae, atque doloremque debitis id dolorum odit nobis eos et dolore nulla quis.</p>
+        <h4 id="sh2">second Heading</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod iure quisquam numquam consequuntur illum eum cumque at. Repudiandae, atque doloremque debitis id dolorum odit nobis eos et dolore nulla quis.</p>
+        <h4 id="sh3">third Heading</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod iure quisquam numquam consequuntur illum eum cumque at. Repudiandae, atque doloremque debitis id dolorum odit nobis eos et dolore nulla quis.</p>
+        <h4 id="sh4">Forth Heading</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod iure quisquam numquam consequuntur illum eum cumque at. Repudiandae, atque doloremque debitis id dolorum odit nobis eos et dolore nulla quis.</p>
+    </div>
+    
+    <nav id="navbar-example3" class="navbar navbar-light bg-light flex-column align-items-stretch p-3">
+  <a class="navbar-brand" href="#">Navbar</a>
+  <nav class="nav nav-pills flex-column">
+    <a class="nav-link" href="#item-1">Item 1</a>
+    <nav class="nav nav-pills flex-column">
+      <a class="nav-link ms-3 my-1" href="#item-1-1">Item 1-1</a>
+      <a class="nav-link ms-3 my-1" href="#item-1-2">Item 1-2</a>
+    </nav>
+    <a class="nav-link" href="#item-2">Item 2</a>
+    <a class="nav-link" href="#item-3">Item 3</a>
+    <nav class="nav nav-pills flex-column">
+      <a class="nav-link ms-3 my-1" href="#item-3-1">Item 3-1</a>
+      <a class="nav-link ms-3 my-1" href="#item-3-2">Item 3-2</a>
+    </nav>
+  </nav>
+</nav>
+
+<div data-bs-spy="scroll" data-bs-target="#navbar-example3" data-bs-offset="0" tabindex="0" style="height: 120px;overflow-y: scroll;">
+  <h4 id="item-1">Item 1</h4>
+  <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Beatae corporis dolorem aperiam? Magni iusto dolor illo similique! Sequi natus praesentium cupiditate corporis, cum quibusdam minus maiores deleniti aliquam earum sed. Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore tenetur reprehenderit, magni autem doloremque dolorum similique commodi numquam fugit, corporis excepturi aspernatur eum earum nesciunt ab nisi soluta voluptas maiores.</p>
+  <h5 id="item-1-1">Item 1-1</h5>
+  <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Beatae corporis dolorem aperiam? Magni iusto dolor illo similique! Sequi natus praesentium cupiditate corporis, cum quibusdam minus maiores deleniti aliquam earum sed. Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore tenetur reprehenderit, magni autem doloremque dolorum similique commodi numquam fugit, corporis excepturi aspernatur eum earum nesciunt ab nisi soluta voluptas maiores.</p>
+  <h5 id="item-1-2">Item 1-2</h5>
+  <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Beatae corporis dolorem aperiam? Magni iusto dolor illo similique! Sequi natus praesentium cupiditate corporis, cum quibusdam minus maiores deleniti aliquam earum sed. Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore tenetur reprehenderit, magni autem doloremque dolorum similique commodi numquam fugit, corporis excepturi aspernatur eum earum nesciunt ab nisi soluta voluptas maiores.</p>
+  <h4 id="item-2">Item 2</h4>
+  <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Beatae corporis dolorem aperiam? Magni iusto dolor illo similique! Sequi natus praesentium cupiditate corporis, cum quibusdam minus maiores deleniti aliquam earum sed. Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore tenetur reprehenderit, magni autem doloremque dolorum similique commodi numquam fugit, corporis excepturi aspernatur eum earum nesciunt ab nisi soluta voluptas maiores.</p>
+  <h4 id="item-3">Item 3</h4>
+  <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Beatae corporis dolorem aperiam? Magni iusto dolor illo similique! Sequi natus praesentium cupiditate corporis, cum quibusdam minus maiores deleniti aliquam earum sed. Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore tenetur reprehenderit, magni autem doloremque dolorum similique commodi numquam fugit, corporis excepturi aspernatur eum earum nesciunt ab nisi soluta voluptas maiores.</p>
+  <h5 id="item-3-1">Item 3-1</h5>
+  <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Beatae corporis dolorem aperiam? Magni iusto dolor illo similique! Sequi natus praesentium cupiditate corporis, cum quibusdam minus maiores deleniti aliquam earum sed. Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore tenetur reprehenderit, magni autem doloremque dolorum similique commodi numquam fugit, corporis excepturi aspernatur eum earum nesciunt ab nisi soluta voluptas maiores.</p>
+  <h5 id="item-3-2">Item 3-2</h5>
+  <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Beatae corporis dolorem aperiam? Magni iusto dolor illo similique! Sequi natus praesentium cupiditate corporis, cum quibusdam minus maiores deleniti aliquam earum sed. Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore tenetur reprehenderit, magni autem doloremque dolorum similique commodi numquam fugit, corporis excepturi aspernatur eum earum nesciunt ab nisi soluta voluptas maiores.</p>
+</div>
+
+<br>
+<div class="list-group" id="scrollspyli">
+    <a href="#list-item-1" class="list-group-item list-group-item-action">item-1</a>
+    <a href="#list-item-2" class="list-group-item list-group-item-action">item-2</a>
+    <a href="#list-item-3" class="list-group-item list-group-item-action">item-3</a>
+    <a href="#list-item-4" class="list-group-item list-group-item-action">item-4</a>
+</div>
+<div class="scrollspy-example" data-bs-spy="scroll" data-bs-target="#scrollspyli" style="height: 100px; overflow-y: scroll;">
+    <h4 id="list-item-1">item-1</h4>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum doloremque soluta, non iste excepturi quod obcaecati facilis nam incidunt vel laboriosam minus magni reiciendis, recusandae consequuntur sit facere a ipsa.</p>
+    <h4 id="list-item-2">item-2</h4>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum doloremque soluta, non iste excepturi quod obcaecati facilis nam incidunt vel laboriosam minus magni reiciendis, recusandae consequuntur sit facere a ipsa.</p>
+    <h4 id="list-item-3">item-3</h4>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum doloremque soluta, non iste excepturi quod obcaecati facilis nam incidunt vel laboriosam minus magni reiciendis, recusandae consequuntur sit facere a ipsa.</p>
+    <h4 id="list-item-4">item-4</h4>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum doloremque soluta, non iste excepturi quod obcaecati facilis nam incidunt vel laboriosam minus magni reiciendis, recusandae consequuntur sit facere a ipsa.</p>
+</div>
+    <script src="/bootstrap-5.3.6-dist/js/bootstrap.bundle.js"></script>
+</body>
+</html>
