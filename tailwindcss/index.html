@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+<body class="bg-[#334456] text-white">
+    <h1 class="text-3xl text-bold">1. layout</h1>
+    <br>
+    <p class="underline text-2xl">1.1 aspect-ratio</p>
+    <img src="img/villas.avif" class="aspect-3/1 object-cover" alt="">
+    <img src="img/villas.avif" class="aspect-retro object-cover" alt="">
+    <iframe class="aspect-video md:aspect-square" width="560" height="315" src="https://www.youtube.com/embed/tVzUXW6siu0?si=keOKLpC2OhnJcoTK" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    <br>
+    <br>
+    <p class="underline text-2xl"> 1.2 column</p>
+    
+    <div class="columns-3 gap-3">
+        <img src="img/1.avif" class="aspect-3/2 " alt="">
+        <img src="img/2.avif" class="aspect-square " alt="">
+        <img src="img/3.avif" class="aspect-square " alt="">
+        <img src="img/4.avif" class="aspect-square " alt="">
+        <img src="img/5.avif" class="aspect-3/2 " alt="">
+        <img src="img/6.avif" class="aspect-square " alt="">
+        <img src="img/7.avif" class="aspect-square " alt="">
+        <img src="img/8.avif" class="aspect-square " alt="">
+        <img src="img/9.avif" class="aspect-3/2 " alt="">
+        
+    </div>
+    <br><br>
+    <div class="columns-3xs gap-3">
+        <img src="img/1.avif" class="aspect-3/2 " alt="">
+        <img src="img/2.avif" class="aspect-square " alt="">
+        <img src="img/3.avif" class="aspect-square " alt="">
+        <img src="img/4.avif" class="aspect-square " alt="">
+        <img src="img/5.avif" class="aspect-3/2 " alt="">
+        <img src="img/6.avif" class="aspect-square " alt="">
+        <img src="img/7.avif" class="aspect-square " alt="">
+        <img src="img/8.avif" class="aspect-square " alt="">
+        <img src="img/9.avif" class="aspect-3/2 " alt="">
+        
+    </div>
+    <br><br>
+    <div class="columns-[500px] gap-3">
+        <img src="img/1.avif" class="aspect-3/2 " alt="">
+        <img src="img/2.avif" class="aspect-square " alt="">
+        <img src="img/3.avif" class="aspect-square " alt="">
+        <img src="img/4.avif" class="aspect-square " alt="">
+        <img src="img/5.avif" class="aspect-3/2 " alt="">
+        <img src="img/6.avif" class="aspect-square " alt="">
+        <img src="img/7.avif" class="aspect-square " alt="">
+        <img src="img/8.avif" class="aspect-square " alt="">
+        <img src="img/9.avif" class="aspect-3/2 " alt="">
+        
+    </div>
+    <br><br>
+    <div class="columns-2 gap-3 sm:columns-3 sm:gap-0" >
+        <img src="img/1.avif" class=" border-5 border-[#334456] aspect-3/2 " alt="">
+        <img src="img/2.avif" class=" border-5 border-[#334456] aspect-square " alt="">
+        <img src="img/3.avif" class=" border-5 border-[#334456] aspect-square " alt="">
+        <img src="img/4.avif" class=" border-5 border-[#334456] aspect-square " alt="">
+        <img src="img/5.avif" class=" border-5 border-[#334456] aspect-3/2 " alt="">
+        <img src="img/6.avif" class=" border-5 border-[#334456] aspect-square " alt="">
+        <img src="img/7.avif" class=" border-5 border-[#334456] aspect-square " alt="">
+        <img src="img/8.avif" class=" border-5 border-[#334456] aspect-square " alt="">
+        <img src="img/9.avif" class=" border-5 border-[#334456] aspect-3/2 " alt="">
+        
+    </div>
+    <p class="underline text-2xl">1.3 break-after</p>
+    <div class="column-2">
+        <p>hello world</p>
+        <p class="break-after-column">hello creative institute</p>
+        <p class="break-after-column">hello creative institute</p>
+    </div>
+    <p class="underline text-2xl">1.4 break-before</p>
+    <div class="column-2">
+        <p>hello world</p>
+        <p class="break-before-column">hello creative institute</p>
+        <p class="break-before-column">hello institute</p>
+    </div>
+    <p class="underline text-2xl">1.5 break-inside</p>
+    <div class="column-2">
+        <p>hello world</p>
+        <p class="break-inside-avoid-column">hello creative institute</p>
+        <p class="break-inside-avoid-column">hello institute</p>
+    </div>
+    <p class="underline text-2xl">1.6 box-decoration-break</p>
+    <span class="box-decoration-slice bg-linear-to-r from-teal-400 to-pink-500 p-2 text-white">hello world</span>
+
+
+</body>
+</html>
