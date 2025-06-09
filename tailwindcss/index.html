@@ -8,7 +8,7 @@
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 </head>
 
-<body class="bg-[#334456] text-white">
+<body class="bg-[#334456] text-white" style="text-transform: capitalize;">
     <h1 class="text-3xl text-bold">1. layout</h1>
     <br>
     <p class="underline text-2xl">1.1 aspect-ratio</p>
@@ -629,13 +629,306 @@
     </div>
     <p class="underline text-2xl">1.15 overscroll-behavior</p>
     <div class="overscroll-contain overflow-y-scroll w-[400px] h-[200px] mx-auto p-3 border-1 rounded-xl">
-        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam sit veniam magnam doloribus, voluptatem iure dolores numquam itaque accusantium distinctio id. Consequuntur iste magni repellendus neque quasi unde libero corrupti. Tenetur et aperiam sint aut veritatis ullam, ipsum nesciunt numquam soluta provident, odio accusamus assumenda. Necessitatibus molestias beatae voluptates perspiciatis eum inventore. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempore porro reiciendis excepturi atque cupiditate, maxime quidem illum laborum ratione! Nam, quo voluptates neque veniam laboriosam eius sint corrupti architecto exercitationem.
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur adipisicing
+        elit. Totam sit veniam magnam doloribus, voluptatem iure dolores numquam itaque accusantium distinctio id.
+        Consequuntur iste magni repellendus neque quasi unde libero corrupti. Tenetur et aperiam sint aut veritatis
+        ullam, ipsum nesciunt numquam soluta provident, odio accusamus assumenda. Necessitatibus molestias beatae
+        voluptates perspiciatis eum inventore. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempore porro
+        reiciendis excepturi atque cupiditate, maxime quidem illum laborum ratione! Nam, quo voluptates neque veniam
+        laboriosam eius sint corrupti architecto exercitationem.
     </div>
     <br>
     <div class="overscroll-auto overflow-y-scroll w-[400px] h-[200px] mx-auto p-3 border-1 rounded-xl">
-        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam sit veniam magnam doloribus, voluptatem iure dolores numquam itaque accusantium distinctio id. Consequuntur iste magni repellendus neque quasi unde libero corrupti. Tenetur et aperiam sint aut veritatis ullam, ipsum nesciunt numquam soluta provident, odio accusamus assumenda. Necessitatibus molestias beatae voluptates perspiciatis eum inventore. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempore porro reiciendis excepturi atque cupiditate, maxime quidem illum laborum ratione! Nam, quo voluptates neque veniam laboriosam eius sint corrupti architecto exercitationem.
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur adipisicing
+        elit. Totam sit veniam magnam doloribus, voluptatem iure dolores numquam itaque accusantium distinctio id.
+        Consequuntur iste magni repellendus neque quasi unde libero corrupti. Tenetur et aperiam sint aut veritatis
+        ullam, ipsum nesciunt numquam soluta provident, odio accusamus assumenda. Necessitatibus molestias beatae
+        voluptates perspiciatis eum inventore. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempore porro
+        reiciendis excepturi atque cupiditate, maxime quidem illum laborum ratione! Nam, quo voluptates neque veniam
+        laboriosam eius sint corrupti architecto exercitationem.
+    </div>
+    <p class="underline text-2xl">1.16 position</p>
+    <div class="static h-32 border border-purple-700/10 bg-purple-400/20 p-4 dark:border-0 dark:bg-sky-400/20">
+        <p>static parent</p>
+        <div class="absolute bottom-0 left-0 rounded-lg bg-purple-500 p-4 text-white shadow-lg dark:bg-sky-500">
+            <p>absolute parent</p>
+        </div>
     </div>
 
+
+    <div class="relative h-32 bg-sky-400/20 p-4 m-3 rounded-lg">
+        <p>relative parent</p>
+        <div class="absolute p-4 text-white bg-sky-300/40 bottom-0 rounded-lg left-0">
+            <p>absolute child</p>
+        </div>
+    </div>
+
+
+    <div class="relative bg-purple-700 p-4 m-3 rounded-lg">
+        <p>Relative Parent</p>
+        <div class="static bg-purple-200/20 p-4 rounded-lg">
+            <p>static parent</p>
+            <div class="static w-30 text-center p-2 bg-purple-700 rounded inline-block">
+                <p>static child</p>
+            </div>
+            <div class="static w-30 text-center p-2 bg-white text-purple-700 rounded inline-block">
+                <p>static sibling</p>
+            </div>
+        </div>
+    </div>
+    <div class="relative bg-purple-700 p-4 m-3 rounded-lg">
+        <p>Relative Parent</p>
+        <div class="static bg-purple-200/20 p-4 rounded-lg">
+            <p>static parent</p>
+            <div class="static w-30 text-center p-2 bg-purple-700 rounded inline-block">
+                <p>static child</p>
+            </div>
+            <div class="absolute top-0 right-0 w-50 text-center p-4 bg-white text-purple-700 rounded inline-block">
+                <p>absolute child</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="relative  w-100  mx-auto rounded-lg overflow-hidden">
+        <div class="absolute .h-[20px] p-3 top-0 left-0 right-0  bg-black ">
+            contacts
+        </div>
+        <div class="overflow-y-scroll w-[400px] h-[300px] border-1 rounded-xl mx-auto mt-[40px]">
+            <div class="flex items-center p-3">
+                <img src="img/photo-1501196354995-cbb51c65aaea.avif" alt="" class="rounded-full" width="70px">
+                <div class="p-3">
+                    <strong>Andrew Alfred</strong>
+                </div>
+            </div>
+            <hr>
+            <div class="flex items-center p-3">
+                <img src="img/p-2.avif" alt="" class="rounded-full" width="70px">
+                <div class="p-3">
+                    <strong>Debra Houston</strong>
+                </div>
+            </div>
+            <hr>
+            <div class="flex items-center p-3">
+                <img src="img/p-3.avif" alt="" class="rounded-full" width="70px">
+                <div class="p-3">
+                    <strong>Jane White</strong>
+                </div>
+            </div>
+            <hr>
+            <div class="flex items-center p-3">
+                <img src="img/p-4.avif" alt="" class="rounded-full" width="70px">
+                <div class="p-3">
+                    <strong>Ray Flint</strong>
+                </div>
+            </div>
+            <hr>
+            <div class="flex items-center p-3">
+                <img src="img/p-3.avif" alt="" class="rounded-full" width="70px">
+                <div class="p-3">
+                    <strong>Jane White</strong>
+                </div>
+            </div>
+            <hr>
+            <div class="flex items-center p-3">
+                <img src="img/p-4.avif" alt="" class="rounded-full" width="70px">
+                <div class="p-3">
+                    <strong>Ray Flint</strong>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br>
+    <div class="overflow-y-scroll w-[400px] h-[300px] border-1 rounded-xl mx-auto mt-[40px]">
+        <div class="sticky top-0 bg-black p-2">A</div>
+        <div class="flex items-center p-3">
+            <img src="img/photo-1501196354995-cbb51c65aaea.avif" alt="" class="rounded-full" width="70px">
+            <div class="p-3">
+                <strong>Andrew Alfred</strong>
+            </div>
+        </div>
+        <hr>
+        <div class="flex items-center p-3">
+            <img src="img/p-2.avif" alt="" class="rounded-full" width="70px">
+            <div class="p-3">
+                <strong>Aisha Houston</strong>
+            </div>
+        </div>
+        <hr>
+        <div class="flex items-center p-3">
+            <img src="img/p-3.avif" alt="" class="rounded-full" width="70px">
+            <div class="p-3">
+                <strong>Anna White</strong>
+            </div>
+        </div>
+        <hr>
+        <div class="flex items-center p-3">
+            <img src="img/p-4.avif" alt="" class="rounded-full" width="70px">
+            <div class="p-3">
+                <strong>Andy Flint</strong>
+            </div>
+        </div>
+        <hr>
+        <div class="sticky top-0 bg-black p-2">b</div>
+        <div class="flex items-center p-3">
+            <img src="img/photo-1501196354995-cbb51c65aaea.avif" alt="" class="rounded-full" width="70px">
+            <div class="p-3">
+                <strong>Bob Alfred</strong>
+            </div>
+        </div>
+        <hr>
+        <div class="flex items-center p-3">
+            <img src="img/p-2.avif" alt="" class="rounded-full" width="70px">
+            <div class="p-3">
+                <strong>Bianca Houston</strong>
+            </div>
+        </div>
+        <hr>
+        <div class="flex items-center p-3">
+            <img src="img/p-3.avif" alt="" class="rounded-full" width="70px">
+            <div class="p-3">
+                <strong>Brianna White</strong>
+            </div>
+        </div>
+        <hr>
+        <div class="flex items-center p-3">
+            <img src="img/p-4.avif" alt="" class="rounded-full" width="70px">
+            <div class="p-3">
+                <strong>Bert Flint</strong>
+            </div>
+        </div>
+        <hr>
+        <div class="sticky top-0 bg-black p-2">c</div>
+        <div class="flex items-center p-3">
+            <img src="img/photo-1501196354995-cbb51c65aaea.avif" alt="" class="rounded-full" width="70px">
+            <div class="p-3">
+                <strong>Colton Alfred</strong>
+            </div>
+        </div>
+        <hr>
+        <div class="flex items-center p-3">
+            <img src="img/p-2.avif" alt="" class="rounded-full" width="70px">
+            <div class="p-3">
+                <strong>Cynthia Houston</strong>
+            </div>
+        </div>
+        <hr>
+        <div class="flex items-center p-3">
+            <img src="img/p-3.avif" alt="" class="rounded-full" width="70px">
+            <div class="p-3">
+                <strong>Cheyenne White</strong>
+            </div>
+        </div>
+        <hr>
+        <div class="flex items-center p-3">
+            <img src="img/p-4.avif" alt="" class="rounded-full" width="70px">
+            <div class="p-3">
+                <strong>Charlie Flint</strong>
+            </div>
+        </div>
+        <hr>
+    </div>
+    <p class="underline text-2xl">1.17 top/right/bottom/left</p>
+    <div class="m-3 bg-black rounded-lg w-[450px] mx-auto">
+        
+        <div class="flex">
+            
+            <div class="relative size-32 bg-white m-3 rounded-lg">
+                <div class="absolute top-0 left-0 bg-sky-400 p-5 text-center rounded-lg">1</div>
+            </div>
+            
+            <div class="relative size-32 bg-white m-3 rounded-lg">
+                <div class="absolute top-0 inset-x-0 bg-sky-400 p-5 text-center rounded-lg">2</div>
+            </div>
+            
+            <div class="relative size-32 bg-white m-3 rounded-lg">
+                <div class="absolute top-0 right-0 bg-sky-400 p-5 text-center rounded-lg">3</div>
+            </div>
+        </div>
+        <div class="flex">
+            
+            
+            <div class="relative size-32 bg-white m-3 rounded-lg">
+                <div class="absolute top-0 inset-y-0 bg-sky-400 p-5 text-center rounded-lg">4</div>
+            </div>
+            
+            <div class="relative size-32 bg-white m-3 rounded-lg">
+                <div class="absolute top-0 inset-0 bg-sky-400 p-5 text-center rounded-lg">5</div>
+            </div>
+            
+            <div class="relative size-32 bg-white m-3 rounded-lg">
+                <div class="absolute top-0 inset-y-0 right-0 bg-sky-400 p-5 text-center rounded-lg">6</div>
+            </div>
+        </div>
+        <div class="flex">
+            
+            <div class="relative size-32 bg-white m-3 rounded-lg">
+                <div class="absolute bottom-0 left-0 bg-sky-400 p-5 text-center rounded-lg">7</div>
+            </div>
+            <div class="relative size-32 bg-white m-3 rounded-lg">
+                <div class="absolute bottom-0 inset-x-0 bg-sky-400 p-5 text-center rounded-lg">8</div>
+            </div>
+            <div class="relative size-32 bg-white m-3 rounded-lg">
+                <div class="absolute bottom-0 right-0 bg-sky-400 p-5 text-center rounded-lg">9</div>
+            </div>
+        </div>
+    </div>
+    <br>
+    <br>
+    <div class="relative bg-black w-100 m-2 mx-auto rounded p-2">
+        <div class="flex items-center p-3">
+            <img src="img/p-3.avif" alt="" class="rounded-full" width="70px">
+            <div class="p-5">
+                <strong>Brianna White</strong>
+            </div>
+        </div>
+        <div class="absolute p-2 -top-2 -right-2 bg-red-500 border-2 border-[#334456] rounded-full"></div>
+    </div>
+    
+    <div class="relative bg-black size-32 m-3 mx-auto rounded">
+        <div class="absolute size-16 top-0 left-0 bg-white rounded"></div>
+    </div>
+    <div class="relative bg-black size-32 m-3 mx-auto rounded">
+        <div class="absolute size-16 top-0 right-0 bg-white rounded"></div>
+    </div>
+    <p class="underline text-2xl">1.18 visibility</p>
+    <div class="grid grid-cols-3 gap-4 m-3 w-100 mx-auto">
+        <div class="bg-sky-500 text-center  p-3  rounded-lg ">1</div>
+        <div class="bg-sky-500 text-center  p-3  rounded-lg invisible">2</div>
+        <div class="bg-sky-500 text-center  p-3  rounded-lg ">3</div>
+    </div>
+    <br><br>
+    <div class="grid grid-cols-3 gap-4 m-3 w-100 mx-auto">
+        <div class="bg-sky-500 text-center  p-3  rounded-lg ">1</div>
+        <div class="bg-sky-500 text-center  p-3  rounded-lg visible">2</div>
+        <div class="bg-sky-500 text-center  p-3  rounded-lg ">3</div>
+    </div>
+
+    <table>
+        <thead>
+            <tr>
+                <th>name</th>
+                <th>roll no</th>
+                <th>marks</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr class="collapse">
+                <td>1</td>
+                <td>abc</td>
+                <td>99</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>def</td>
+                <td>90</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>ghi</td>
+                <td>88</td>
+            </tr>
+        </tbody>
+    </table>
 </body>
 
 
