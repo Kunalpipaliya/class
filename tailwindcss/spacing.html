@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+
+<body class="m-3 bg-[#334456] text-white">
+    <h1 class="text-3xl bold ">spacing : </h1>
+    <p class="bold text-2xl">1.padding</p>
+    <div class="-mx-5 flex flex-wrap items-start justify-center font-mono text-sm leading-6 font-bold text-white">
+        <div class="flex items-start">
+            <div class="flex-none px-5">
+                <div class="overflow-hidden rounded-lg bg-purple-500">
+                    <div
+                        class="h-6 w-full rounded-t-lg text-white/50 bg-[size:8px_8px] bg-top-left bg-[image:repeating-linear-gradient(315deg,currentColor_0,currentColor_1px,transparent_0,transparent_50%)]">
+                    </div>
+                    <div class="p-4">pt-6</div>
+                </div>
+            </div>
+            <div class="flex-none px-5 pt-6">
+                <div class="flex overflow-hidden rounded-lg bg-purple-500">
+                    <div class="flex-none p-4">pr-4</div>
+                    <div
+                        class="min-h-full w-4 flex-none rounded-r-lg text-white/50 bg-[size:8px_8px] bg-top-left bg-[image:repeating-linear-gradient(315deg,currentColor_0,currentColor_1px,transparent_0,transparent_50%)]">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="flex items-start">
+            <div class="flex-none px-5 pt-6">
+                <div class="overflow-hidden rounded-lg bg-purple-500">
+                    <div class="p-4">pb-8</div>
+                    <div
+                        class="h-8 w-full rounded-b-lg text-white/50 bg-[size:8px_8px] bg-top-left bg-[image:repeating-linear-gradient(315deg,currentColor_0,currentColor_1px,transparent_0,transparent_50%)]">
+                    </div>
+                </div>
+            </div>
+            <div class="flex-none px-5 pt-6">
+                <div class="flex overflow-hidden rounded-lg bg-purple-500">
+                    <div
+                        class="min-h-full w-2 flex-none rounded-l-lg text-white/50 bg-[size:8px_8px] bg-top-left bg-[image:repeating-linear-gradient(315deg,currentColor_0,currentColor_1px,transparent_0,transparent_50%)]">
+                    </div>
+                    <div class="flex-none p-4">pl-2</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="ps-10 bg-purple-500 rounded w-20  h-20">ps-10</div><br>
+    <div class="pe-10 bg-purple-500 rounded w-20  h-20">pe-10</div><br>
+    <div class="pt-10 bg-purple-500 rounded w-20  h-20">pe-10</div><br>
+    <div class="pb-10 bg-purple-500 rounded w-20  h-20">pb-10</div><br>
+    <p class="text-2xl bold">2.margin</p>
+    <div class=" border-lg border-2 rounded text-center">
+        <div class="mt-6 size-8 rounded-lg bg-purple-500">mt</div>
+        <div class="mr-4 size-8 rounded-lg bg-purple-500">mr</div>
+        <div class="mb-8 size-8 rounded-lg bg-purple-500">mb</div>
+        <div class="ml-2 size-8 rounded-lg bg-purple-500">ml</div>
+    </div>
+    <div class="w-16 p-2 h-full bg-white">
+
+        <div class="mx-8 bg-sky-500 rounded w-16 p-2">mx</div>
+    </div>
+
+    <br>
+    <div class="h-16 w-36 bg-sky-400 opacity-20 rounded-lg"></div>
+    <div class="-mt-8 bg-sky-300 p-2 w-18 rounded ms-8">-mt-8</div>
+    <br>
+    <br>
+    <div>
+        <div dir="ltr" class="bg-white p-2 rounded">
+            <div class="ms-8 bg-sky-400 rounded-lg p-2">ms-8</div>
+            <div class="me-8 bg-sky-400 rounded-lg p-2">me-8</div>
+        </div>
+        <br>
+        <div dir="rtl" class="bg-white p-2 rounded">
+            <div class="ms-8 bg-sky-400 rounded-lg p-2">ms-8</div>
+            <div class="me-8 bg-sky-400 rounded-lg p-2">me-8</div>
+        </div>
+    </div>
+</body>
+
+
+</html>
